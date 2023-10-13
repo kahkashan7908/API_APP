@@ -47,8 +47,8 @@ function App() {
           </TableHead>
           <TableBody>
             {usersToDisplay.map((user) => (
-              <React.Fragment key={user.id}>
-                <TableRow>
+              <>
+                <TableRow key={user.id}>
                   <TableCell>{user.name}</TableCell>
                   <TableCell>{user.email}</TableCell>
                   <TableCell>{user.address.city}</TableCell>
@@ -71,7 +71,7 @@ function App() {
                     </TableCell>
                   </TableRow>
                 )}
-              </React.Fragment>
+              </>
             ))}
           </TableBody>
         </Table>

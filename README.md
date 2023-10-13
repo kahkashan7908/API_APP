@@ -2,7 +2,7 @@
 A web application that retrieves data from a public API and displays it using a React.js frontend.
 ## Setup the project
 ## Step 1:
-Clone the repo on your local machine through this command:** git clone https://github.com/kahkashan7908/API_APP.git**
+Clone the repo on your local machine through this command: git clone https://github.com/kahkashan7908/API_APP.git
 ## Step 2:
 Open the Backend_API folder in the cmd or Vs code terminal.
 ## Step 3:
